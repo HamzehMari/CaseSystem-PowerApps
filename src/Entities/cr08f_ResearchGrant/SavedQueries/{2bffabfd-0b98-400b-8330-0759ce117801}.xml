@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2bffabfd-0b98-400b-8330-0759ce117801}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_title" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_researchgrantid">
+          <cell name="cr08f_title" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="cr08f_startdate" width="150" />
+          <cell name="cr08f_enddate" width="150" />
+          <cell name="cr08f_totalbudget" width="150" />
+          <cell name="cr08f_grantstatus" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_researchgrant">
+          <attribute name="cr08f_researchgrantid" />
+          <attribute name="cr08f_title" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr08f_startdate" />
+          <attribute name="cr08f_enddate" />
+          <attribute name="cr08f_totalbudget" />
+          <attribute name="cr08f_grantstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Research Grants" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,19 @@
+function ShowMilestone(executionContext) {
+	var formContext = executionContext.getFormContext();
+	var status = formContext.getAttribute("cr08f_grantstatus").getValue();
+	var startdate = formContext.getControl("cr08f_startdate");
+	var midpoint = formContext.getControl("cr08f_midpoint");
+	var enddate = formContext.getControl("cr08f_enddate");
+
+
+	if (status == 175140001) {
+		startdate.setVisible(true);
+		midpoint.setVisible(true);
+        enddate.setVisible(true);
+	}
+    else {
+        startdate.setVisible(false);
+        midpoint.setVisible(false);
+        enddate.setVisible(false);
+    }
+}

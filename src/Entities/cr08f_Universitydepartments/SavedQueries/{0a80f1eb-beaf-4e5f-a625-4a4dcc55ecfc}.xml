@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{0a80f1eb-beaf-4e5f-a625-4a4dcc55ecfc}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_universitydepartmentsid">
+          <cell name="cr08f_name" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="cr08f_totalbudget" width="150" />
+          <cell name="cr08f_remainingbudget" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_universitydepartments">
+          <attribute name="cr08f_universitydepartmentsid" />
+          <attribute name="cr08f_name" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="cr08f_totalbudget" />
+          <attribute name="cr08f_remainingbudget" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active University departments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

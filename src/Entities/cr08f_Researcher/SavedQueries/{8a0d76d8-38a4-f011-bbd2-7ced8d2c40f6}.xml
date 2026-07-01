@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{8a0d76d8-38a4-f011-bbd2-7ced8d2c40f6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_name" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_researcherid">
+          <cell name="cr08f_name" width="200" />
+          <cell name="cr08f_department" width="200" />
+          <cell name="cr08f_role" width="200" />
+          <cell name="cr08f_phonenumber" width="200" />
+          <cell name="statecode" width="200" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="cr08f_researcher">&lt;attribute name="cr08f_name" /&gt;&lt;attribute name="cr08f_department" /&gt;&lt;attribute name="cr08f_role" /&gt;&lt;attribute name="cr08f_phonenumber" /&gt;&lt;attribute name="statecode" /&gt;
+        <attribute name="cr08f_name" /><attribute name="cr08f_department" /><attribute name="cr08f_role" /><attribute name="cr08f_phonenumber" /><attribute name="statecode" /><attribute name="cr08f_researcherid" /><filter type="and"><condition attribute="cr08f_role" operator="eq" value="175140000" /></filter></entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="prof only" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,11 @@
+function CheckSponsor(executionContext) {
+	var formContext = executionContext.getFormContext();
+	var status = formContext.getAttribute("cr08f_grantstatus").getValue();
+
+	if (status == 175140000 || status == 175140001) {
+            formContext.getAttribute("cr08f_sponsor").setRequiredLevel("required");
+	}
+    else {
+        formContext.getAttribute("cr08f_sponsor").setRequiredLevel("recommended");
+    }
+}

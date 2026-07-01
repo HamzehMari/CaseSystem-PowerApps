@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{661461f5-fba4-f011-bbd2-7ced8d75d2b3}</WebResourceId>
+  <Name>cr08f_CheckSponsor</Name>
+  <DisplayName>CheckSponsor</DisplayName>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/cr08f_CheckSponsor661461F5-FBA4-F011-BBD2-7CED8D75D2B3</FileName>
+</WebResource>

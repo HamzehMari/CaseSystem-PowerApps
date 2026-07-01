@@ -1,0 +1,28 @@
+function resolveCase(executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    formContext.ui.controls.forEach(function (control) {
+        control.setDisabled(true);
+    });
+
+    var currentUserId = Xrm.Utility.getGlobalContext().userSettings.userId;
+    var originalCreatedOn = formContext.getAttribute("createdon").getValue();
+    var now = new Date();
+    var durationMs = (now.getTime() - originalCreatedOn.getTime());
+    var duration = durationMs / (1000 * 60 * 60); 
+
+    var resolvedCase = {
+        "cr08f_cases@odata.bind": "/cr08f_job(" + formContext.data.entity.getId() + ")",
+        "cr08f_resolvedby@odata.bind": "/systemusers(" + currentUserId + ")",
+        "cr08f_duration": duration
+    };
+
+    Xrm.WebApi.createRecord("cr08f_resolvedcase", resolvedCase).then(
+        function success(result) {
+            Xrm.Navigation.openAlertDialog({ text: "Case resolved successfully!" });
+        },
+        function (error) {
+            Xrm.Navigation.openAlertDialog({ text: "Error: " + error.message });
+        }
+    );
+}

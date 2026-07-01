@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{76fa6996-114c-47ee-b10a-5e35d065aa11}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cr08f_title" select="1" icon="1" preview="1">
+        <row name="result" id="cr08f_researchapplicationid">
+          <cell name="cr08f_title" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_researchapplication">
+          <attribute name="cr08f_researchapplicationid" />
+          <attribute name="cr08f_title" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="cr08f_title" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Research applications" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

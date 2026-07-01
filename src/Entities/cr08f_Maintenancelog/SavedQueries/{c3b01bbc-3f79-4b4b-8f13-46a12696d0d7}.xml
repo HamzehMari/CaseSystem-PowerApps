@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c3b01bbc-3f79-4b4b-8f13-46a12696d0d7}</savedqueryid>
+    <layoutxml>
+      <grid name="cr08f_maintenancelogs" jump="cr08f_title" select="1" icon="1" preview="1">
+        <row name="cr08f_maintenancelog" id="cr08f_maintenancelogid">
+          <cell name="cr08f_title" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="cr08f_maintenancelog">
+          <attribute name="cr08f_maintenancelogid" />
+          <attribute name="cr08f_title" />
+          <attribute name="createdon" />
+          <order attribute="cr08f_title" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Maintenance log Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

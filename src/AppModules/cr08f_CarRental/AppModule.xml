@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>cr08f_CarRental</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="cr08f_fundingtransaction" />
+    <AppModuleComponent type="1" schemaName="cr08f_milestone" />
+    <AppModuleComponent type="1" schemaName="cr08f_researchapplication" />
+    <AppModuleComponent type="1" schemaName="cr08f_researcher" />
+    <AppModuleComponent type="1" schemaName="cr08f_researchgrant" />
+    <AppModuleComponent type="1" schemaName="cr08f_rolluptest" />
+    <AppModuleComponent type="1" schemaName="cr08f_sponsor" />
+    <AppModuleComponent type="1" schemaName="cr08f_universitydepartments" />
+    <AppModuleComponent type="62" schemaName="cr08f_CarRental" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Car Rental" languagecode="1033" />
+  </LocalizedNames>
+  <appsettings>
+    <appsetting settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

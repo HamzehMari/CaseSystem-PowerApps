@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{eb2407e1-0fe4-48c6-8de0-a91fdaadc746}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{6b6d46de-fea2-479c-b68c-d1ae4d166cdd}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{4d0fd2ef-6b14-407a-b616-aa0a7fc2fac9}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{97bf4203-40c3-48e2-81dd-8ba55b55a560}">
+                        <labels>
+                          <label description="Title" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_title" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr08f_title" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{670fd56e-2385-4118-837f-57850c1066e2}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{501254ee-ae3a-419a-a8d1-03931505d001}">
+                        <labels>
+                          <label description="Total Budget" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_totalbudget" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="cr08f_totalbudget" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{de8d6100-9dff-472d-910a-71efda08e10d}">
+                        <labels>
+                          <label description="Grant Status" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_grantstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="cr08f_grantstatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b3f97ef6-f478-4625-8a67-821697e88bb8}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="lead" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_lead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_lead" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{8A0D76D8-38A4-F011-BBD2-7CED8D2C40F6}</DefaultViewId>
+                            <AvailableViewIds>{9DDF4BE0-43A6-4FA4-AB02-0641A9A174B9},{7FC094AF-566D-4AE1-8E05-5F7AA5CD2B46},{8A0D76D8-38A4-F011-BBD2-7CED8D2C40F6},{702BC02D-379E-431C-A418-B93EE37BA3D4}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9dac9522-4d55-42e4-8a54-e3351c154a19}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="sponsor" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_sponsor" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cr08f_sponsor" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e604ba79-d0b5-45b1-84db-a0a7419d6d6c}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_startdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="cr08f_startdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1fade1f-7742-4072-aee3-8b44800fa841}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="midpoint" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_midpoint" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cr08f_midpoint" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8fce0595-ac95-47a5-9188-752d7c926fb3}" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_enddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="cr08f_enddate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{f92f0423-f677-4487-a8e5-c3eb181b45f3}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{704e472d-dbe5-40c5-aea6-dd8e9b78bea9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a1b677f9-4f38-4c12-9c9c-745f84d62b87}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{fcf3fd5c-e48c-4430-9f6e-5cc2ea39ac2f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{9adc654a-5c2a-4efb-90b6-b8abb20a9c2c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{841cf9df-f1cc-4935-9ea4-89fb35d0f846}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d11193b7-720e-4029-bca7-640ba1892938}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{d86d6455-921d-4b27-9426-b345fd48069e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <formLibraries>
+        <Library name="cr08f_ShowMilestone" libraryUniqueId="{eacf65e5-c6fd-44b4-ac8f-8412b61c4eca}" />
+        <Library name="cr08f_CheckSponsor" libraryUniqueId="{b91d174b-9630-4e9a-b3a7-a4ea807f49d4}" />
+      </formLibraries>
+      <events>
+        <event name="onchange" application="false" active="false" attribute="cr08f_grantstatus">
+          <Handlers>
+            <Handler functionName="ShowMilestone" libraryName="cr08f_ShowMilestone" handlerUniqueId="{ccb3c341-6b1d-47fb-aca5-607518613aa3}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="CheckSponsor" libraryName="cr08f_CheckSponsor" handlerUniqueId="{61b2a60a-ea4d-450b-b5bb-76c7448b8c30}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

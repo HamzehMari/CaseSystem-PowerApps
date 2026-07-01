@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c6988901-556e-4df7-a8df-eee36f6020b1}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{bc982872-00de-4a0d-8acb-bb749baeac98}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e914cb71-fc9c-46f0-80e9-fb77ed10d720}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{11ffc057-0b8a-440c-a5c7-2d6867b60822}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr08f_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c0fc085-757d-45c5-8978-017a38ea1618}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f3a0bacb-3aca-45df-9d4b-0cf2c4614601}">
+                        <labels>
+                          <label description="Total Budget" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_totalbudget" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="cr08f_totalbudget" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a814e847-ce60-4ea3-9133-1c42a9435e8f}">
+                        <labels>
+                          <label description="Remaining Budget" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_remainingbudget" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="cr08f_remainingbudget" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

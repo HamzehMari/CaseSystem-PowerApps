@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{21be8303-4c17-4270-84ee-589c48376718}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{7e599352-abe6-40e0-a9a0-b43a95463ade}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{6cc04f44-b4af-44ac-ab9f-a933bc464188}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{159af72a-f5ff-4961-aff2-286535ae7fc2}">
+                        <labels>
+                          <label description="Purpose" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_purpose" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cr08f_purpose" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{582f5ec7-c920-4585-bfe7-165a0816d59c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2b58a372-fd63-42f1-afa5-ccdc335a5890}">
+                        <labels>
+                          <label description="Transaction Date" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_transactiondate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="cr08f_transactiondate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{95bacd9a-01f0-4690-9093-281590ef0c38}">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_amount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="cr08f_amount" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9ce770b1-34c8-4766-a4a2-a6b4d3f81d1e}">
+                        <labels>
+                          <label description="Balance Remaining" languagecode="1033" />
+                        </labels>
+                        <control id="cr08f_balanceremaining" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="cr08f_balanceremaining" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
